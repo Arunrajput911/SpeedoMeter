@@ -1,0 +1,74 @@
+.t{
+    font-family:monospace;
+    padding-left:45px ;
+}
+.speedometer{
+    width: 100%;
+    max-width: 250px;
+    font-family: 'roboto',sans-serif;
+    color:rgb(94, 91, 91);
+   
+    margin-bottom: 50px;
+}
+.speedometer_body{
+    width: 100%;
+    height: 0px;
+    padding-bottom:50%;
+    background-color: rgb(193, 201, 207);
+    position: relative;
+    border-top-left-radius:100% 200%;
+    border-top-right-radius:100% 200%;
+    overflow:hidden;
+}
+
+.speedometer_fill{
+    position: absolute;
+    top:100%; 
+     left:0;
+    width:inherit;
+    height:100%;
+    background-color:rgb(223, 128, 19);
+    transform-origin: center top;
+    transform:rotate(0.0turn);
+    transition: transform 0.2s ease-out;
+    
+}
+
+
+
+.speedometer_cover{
+    width: 75%;
+    height: 150%;
+    background-color:#ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top:25%;
+    left:12.5%;
+    transform:translateX (-50%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+    padding-bottom: 25%;
+    box-sizing:border-box;
+}
+.main{
+    padding-left:20px ;
+   
+}
+.cart-plus-minus{
+    margin-left: 65px;
+    border: 3px solid #888484;
+    width: 102.5px;
+    border-radius: 5px;
+
+}
+#amount-1{
+   border-left: 0px;
+   border-right: 0px;
+   border-top: 0px;
+}
+.button{
+    border-left: 0px;
+   border-right: 0px;
+}

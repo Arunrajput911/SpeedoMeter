@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedoMeter</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="icon.png">
+    
+</head>
+<body>
+    <div class="main">
+        <h1 class="t">SPEEDOMETER</h1>
+        <h3 class="t">Max Speed-100 km/h</h3>
+        <div class="speedometer">
+            <div class="speedometer_body">
+                <div class="speedometer_fill"></div>
+                <div class="speedometer_cover"><strong>0 km/h</strong></div>
+            </div> 
+        </div>
+        <div class="cart-plus-minus" data-target="amount-1">
+            <button class="button cart-minus-1"><strong>-</strong></button>
+            <input type="number" id="amount-1" value="0" min="1" max="10">
+            <button class="button cart-plus-1"><strong>+</strong></button>
+        </div>
+       
+    </div>
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+</html>
